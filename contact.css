@@ -19,7 +19,7 @@ body{
     font-family: monospace;
     white-space: pre-line;
     margin-top: 5%;
-    margin-right: 10%;
+    margin-right: 6%;
     word-break: break-word;
     line-height: 1.2; /* Adjust line height for better readability */
     font-size: 18px; /* Adjust font size as needed */
@@ -141,20 +141,94 @@ button:hover {
         opacity: 0; /* Hide the cursor for half the animation time */
     }
 }
-@media (max-width: 767px) {
-    .typewriter-text{
+/* iPhone 5, 5S, 5C, SE */
+@media (max-width: 320px) {
+    .typewriter-text {
         display: none;
     }
-}
-@media (max-width: 768px) {
     body {
         padding: 10px; /* Reduce padding on smaller screens */
     }
-    
     .contact-form {
         max-width: 100%; 
     }
-    
 }
 
+/* iPhone 6, 6S, 7, 8 */
+@media (max-width: 375px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
+
+/* iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus */
+@media (max-width: 414px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
+
+/* iPhone X, XS, 11 Pro */
+@media (max-width: 375px) and (min-height: 812px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
+
+/* iPhone XR, 11 */
+@media (max-width: 414px) and (min-height: 896px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
+
+/* Android Phones (example: Google Pixel) */
+@media (max-width: 411px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
+
+/* Tablets (example: iPad) */
+@media (max-width: 768px) {
+    .typewriter-text {
+        display: none;
+    }
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    .contact-form {
+        max-width: 100%; 
+    }
+}
 
