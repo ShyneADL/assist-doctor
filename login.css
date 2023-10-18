@@ -1,0 +1,120 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #caffff;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 70%;
+  background-color:  #caffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+.right {
+  flex: 1;
+  max-width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Garamond;
+  color: rgb(1, 12, 22);
+  font-weight: bold;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 18px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.input-container {
+  position: relative;
+}
+
+.floating-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.2s ease-out;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.input-field:focus + .floating-label,
+.input-field.filled + .floating-label {
+  top: -12px;
+  left: 10px;
+  font-size: 12px;
+  color: rgb(1, 12, 22);;
+}
+
+.input-field.filled + .floating-label {
+  top: -12px;
+  left: 10px;
+  font-size: 12px;
+  color: #3E61F4;
+}
+
+.name-container {
+  display: inline-block;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.login-bttn {
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: rgb(1, 12, 22);
+  color: white;
+  cursor: pointer;
+}
+.login-bttn{
+  display: inline-block; /* Make them inline-block elements */
+  vertical-align: middle; /* Align them vertically in the middle */
+  margin-top: 18px; /* Adjust margin if needed */
+}
+.login-link {
+  font-size: 80%; /* Make the text 20% smaller */
+  color: #808080; /* Set the color to ash (gray) */
+  text-align: right; /* Align the text to the right */
+  margin-top: 10px; /* Adjust margin if needed */
+}
+
+
+.login-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -10%; /* Raise the whole login link container 10% to the top */
+}

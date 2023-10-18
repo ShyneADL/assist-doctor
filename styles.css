@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 17, 4);
+    display: flex;
+}
+
+img {
+    transform: scale(0.8); 
+    margin-top: -40px; 
+}
+
+.side-bar{
+    background-color: rgba(18, 26, 25, 0.692);
+    width: 243px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between ;
+    height: 100vh;
+    width: 100%;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 11px
+    
+}
+
+.info{
+    padding: 10px;
+}
+
+input {
+    border: none;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 6px;
+    width: 100%;
+    font-size: 10px;
+    padding: 12px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0, 54px 55px, 
+    rgba(0, 0, 0, 0.05) 0, -12px 30px, 
+    rgba(0, 0, 0, 0.05) 0, 4px 6px,
+    rgba(0, 0, 0, 0.05) 0, 12px 3px,
+    rgba(0, 0, 0, 0.09) 0, -3px 5px;
+    height: auto; /* Allow the input's height to adjust based on content */
+    min-height: 40px; /* Set a minimum height to ensure it doesn't become too small */
+}
+
+input:focus{
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+.input-container #submit{
+    position: absolute;
+    right: 0;
+    bottom: 1.5px;
+    cursor: pointer;
+}
+
+#submit img {
+    max-width: 50%; /* Reduce the image size by 50% by setting a maximum width */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav {
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.history{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    position: fixed;
+    top: -80px; /* Set the initial position to hide the header above the viewport */
+    left: 0;
+    width: 100%;
+    background-color: #04221de3;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%; /* Add this to center vertically */
+}
+
+.header-content h1 {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0; /* Remove default margin */
+}
+
+.refresh-button {
+    position: absolute;
+    width: 100%;
+    max-width: 650px;
+}
+
+.refresh-button #svg-refresh{
+    position: absolute;
+    right: -25px;
+    bottom: 14px;
+    cursor: pointer;
+}
+
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing img {
+    max-width: 100%;
+    height: auto;
+    animation: fadeOut 4s linear forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
+
+.welcome {
+    display: none;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+}

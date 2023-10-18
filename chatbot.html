@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant Doctor - Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<section class="side-bar">
+    <button>
+        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+        New Chat   
+    </button>
+    <button>
+        
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+</svg>
+        Medical History 
+        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            <line x1="10" y1="11" x2="10" y2="17"></line>
+            <line x1="14" y1="11" x2="14" y2="17"></line></svg>
+    </button>
+    <button>   
+        Emergency Call
+    </button>
+    <div class="history"></div>
+    <nav>
+        <p>Made by Dev-Anie</p>
+    </nav>
+</section>
+
+<section class="main">
+    <header id="header" class="hidden">
+        <div class="header-content">
+            <h1>Assistant Doctor</h1>
+            <div class="login-clicks">
+                <button id="login-button">Logout</button>
+                <button id="logout-button" style="display: none;">Login</button>
+            </div>
+        </div>
+    </header>       
+ 
+   <img src="asset/144-1444153_black-and-white-medical-symbol-png-download-transparent-removebg-preview main.png" alt="" />
+   <p id="output"></p>
+   <div class="bottom-section">
+    <div class="input-container">
+        <input />
+        <div id="submit"><img src="asset/output-onlinegiftools (2).gif" alt="" srcset=""></div>
+        
+    </div>
+    <div class="refresh-button">
+        <div id="svg-refresh"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="1 4 1 10 7 10"></polyline>
+            <polyline points="23 20 23 14 17 14"></polyline>
+            <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+        </svg>
+    </div>
+    </div>
+    
+    <p class="info">Free medical Preview. Assistant Doctor may produce inaccurate information about Health cases, hypothesis, or diagnosis. September 25 Version 1.1</p>
+   </div>
+</section>
+
+<script src="MyDoctor.js"></script>
+</body>
+</html>
