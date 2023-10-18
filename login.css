@@ -21,7 +21,7 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-@media (max-width: 767px){
+/* @media (max-width: 767px){
   body {
     overflow: hidden;
   }
@@ -64,6 +64,79 @@ body {
     width: 500px;
   }
 }
+ */
+/* Your existing CSS outside of media queries */
+
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 0; /* Remove padding */
+    border-radius: 0; /* Remove border-radius */
+    margin: 0; /* Remove margin */
+  }
+  .login-link {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow: hidden;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 0; /* Remove padding */
+    border-radius: 0; /* Remove border-radius */
+    margin: 0; /* Remove margin */
+  }
+  .login-link {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
