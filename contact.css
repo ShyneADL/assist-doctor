@@ -230,5 +230,17 @@ button:hover {
     .contact-form {
         max-width: 100%; 
     }
+
+    .mobile-nav {
+        position: absolute;
+        top: 60px;
+        right: 5px;
+        padding: 16px;
+        background-color: #fff;
+        border-radius: 12px;
+        min-width: 150px;
+        z-index: 1000;
+
+    }
 }
 
