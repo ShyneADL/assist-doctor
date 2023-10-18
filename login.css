@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   width: 70%;
   background-color:  #caffff;
   border-radius: 5px;
