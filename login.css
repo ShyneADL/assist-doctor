@@ -37,6 +37,9 @@ body {
     margin-top: 20px;
     margin-right: 10%;
   }
+  .container{
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -56,6 +59,9 @@ body {
     position: relative;
     text-align: center; /* Center-align the content horizontally */
     margin-top: 20px;
+  }
+  .container{
+    max-width: 100%;
   }
 }
 
