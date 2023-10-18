@@ -38,6 +38,29 @@ body {
     margin-right: 10%;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    overflow: hidden;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    max-width: 100%;
+  }
+
+  .login-link {
+    position: relative;
+    text-align: center; /* Center-align the content horizontally */
+    margin-top: 20px;
+  }
+}
+
+
+
 .left {
   flex: 1;
   max-width: 50%;
